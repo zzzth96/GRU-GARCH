@@ -1,2 +1,4 @@
 # GRU-GARCH
-Implementation of GRU-GARCH Model for Volatility Prediction in Python
+This is the Python code for the GRU-GARCH model predicting crypto volatility, written by Tenghan Zhong and Keyuan Wu in Univeristy of Southern California.
+
+In Cryptocurrency markets, the accurate prediction of cryptocurrency price volatility is fundamental to effective risk management, option pricing and portfolio optimization. Traditional GARCH-type models like Average Value GARCH (AVARCH) and Fractionally Integrated GARCH (FIGARCH) often face limitations to capture the complex characteristics of the cryptocurrency volatility, leading to reduced accuracy in volatility prediction. In our paper, we propose two novel hybrid models that combine the strengths of GARCH-type models with GRU neural networks to enhance the volatility forecasting in cryptocurrency markets. Empirical results demonstrate that the GRU-GARCH hybrid model, particularly with the AVARCH specification, outperforms other traditional GARCH-type models and single GRU model across short-term and long-term horizons, while error-based GRU-GARCH hybrid models did not achieve comparable performance.
